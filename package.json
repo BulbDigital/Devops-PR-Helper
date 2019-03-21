@@ -1,0 +1,18 @@
+{
+  "name": "pr-helper",
+  "version": "1.0.0",
+  "description": "Allows auth and query of an azure repo to post pull request status to a slack webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "Mitch Herrema",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.11.4",
+    "azure-devops-node-api": "^7.0.0",
+    "dotenv": "^7.0.0",
+    "typescript": "^3.3.4000"
+  }
+}
